@@ -106,3 +106,74 @@ a:visited{
     color: rgb(79, 10, 114);
 }
 
+
+.content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoDescription{
+    display: block;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    background-color:rgb(110, 211, 212);
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#getTextBox {
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+#submit{
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+#secondSubmit{
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    float: right;
+    font-size: 16px;
+}
+
+ #thirdSubmit{
+    background-color:rgb(16, 29, 209);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    float: right;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+
+.wrapper {
+    width: 80%;
+    height: 150%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #8998df;
+    font-size: 20px;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  
+  textarea{
+      resize: none;
+  }
+

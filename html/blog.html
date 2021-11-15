@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="../css/css_styling.css">
+    <script src="../js/blog.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <a href="../index.html">Home Page</a>
+            <a href="../html/my_resume.html">Resume</a>
+            <a href="../html/my_fun_facts.html">Fun Facts</a>
+            <a href="../html/blog.html">Blog</a>
+        </nav>
+
+        <h1>Emotion, Stress, and Health </h1>
+
+        <iframe allowfullscreen class="content" width="420" height="315"src="https://www.youtube.com/embed/4KbSRXP0wik"></iframe>
+        <p class="videoDescription">
+            The video Emotion, Stress, and Health was about how emotions affect health. 
+            The three main reasons of how emotions can affect health is because of 
+            lifestyle and behavioral factors, social factors, and biological factors. 
+            Facial feedback hypothesis is when smiling can make your mood happier, even
+             when not happy. Being depressed can make you unhealthy. Stress can also be 
+             bad for your health and could be a cause of heart disease which is very common 
+             in the U.S. Stress can increase blood pressure, heart rate, and cholesterol 
+             which plays a huge factor to getting heart disease. The viewers should keep 
+             in mind the way they handle their emotions such as being depressed, angry, or 
+             stressed because it could lead to a negative health outcome. Emotions can be 
+             changed which means everyone could try to be happier and healthier. I liked 
+             this video because it was informative, and I have learned to always have a 
+             positive mindset even when down. The video gives motivation to be happier 
+             because it could affect out health in a good way.  
+
+        </p>
+
+    </header>
+
+    
+   <button onclick="showTextArea()" type="button" id="getTextBox">Leave a Comment</button> 
+<form>
+    <div class="wrapper" id=textArea style="visibility: hidden;">
+        <textarea rows="8" cols="135" onkeypress="textTyped()" type="text" id="inputText" style="white-space: pre-wrap" ></textarea>
+    </div>
+    <div class="wrapper" id="output"></div>
+    <button style="visibility:hidden" onclick="commentText()" type="button" id="submit">Post Comment</button>
+
+</form>
+<div>
+
+</div>
+<form>
+    <div class="wrapper" id=textArea2 style="visibility: hidden;">
+        <textarea rows="5" cols="135" type="text" id="inputText2" style="white-space: pre-wrap" ></textarea>
+    </div>
+    <div class="wrapper" id="output2"></div>
+    <button onclick="return replyText()" type="button" id="secondSubmit" disabled>Reply</button>
+</form>
+
+<div id=lastBtn>
+    <button onclick="commentText2()" type="button" id="thirdSubmit">Post Reply</button>
+</div>
+   
+
+</body>
+</html>
